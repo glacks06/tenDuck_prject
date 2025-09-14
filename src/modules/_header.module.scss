@@ -1,0 +1,36 @@
+@use '../constants' as cons;
+
+.header_component{
+    height: cons.$header-h;
+    background-color: cons.$default-theme-color;
+    overflow: hidden;
+    position: relative;
+
+    .titleBox{
+        width: cons.$header-title-w;
+        height: cons.$header-title-h;
+        margin: cons.$header-title-margin-top cons.$header-title-margin-left;
+        
+        display: flex;
+        /* background-color: yellow; */
+        img{
+            display: block;
+            width: 150px;
+            height: 50px;
+            /* background-color: red; */
+            /* align-self: center; */
+        }
+        p{
+            width: 150px;
+            height: 80px;
+            color: white;
+            font-size: 40px;
+            line-height: 80px;
+            /* background-color: brown; */
+
+            
+        }
+    }
+
+
+}

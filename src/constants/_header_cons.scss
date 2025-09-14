@@ -1,0 +1,16 @@
+@use './default_cons' as default-cons;
+
+$bc-color: default-cons.$theme-color;
+
+$h: 120px;
+$title-w: 200px;
+$title-h: 80px;
+
+$title-margin-top: 10px;
+$title-margin-left: 10%;
+$title-img-size: 50px;
+$title-text-box-w: 150px;
+$title-text-box-h: $title-h;
+$title-text-color: white;
+$title-text-font-size: 40px;
+$title-text-line-height: $title-h;
