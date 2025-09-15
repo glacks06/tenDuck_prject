@@ -9,4 +9,4 @@ function About(){
     );
 };
 
-export default Header;
+export default About;

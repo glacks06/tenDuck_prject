@@ -1,5 +1,6 @@
 import './css/App.css';
-import Header from './components/header'
+import {Header, Dive_lanking, About} from './components'
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -8,8 +9,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Dive_lanking />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       
 
