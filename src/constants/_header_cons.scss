@@ -1,6 +1,7 @@
 @use './default_cons' as default-cons;
 
-$bc-color: default-cons.$theme-color;
+// $bc-color: default-cons.$theme-color;
+$bc-color: linear-gradient(to bottom, #f4ab21, #f3a10a, #1CB5E0);
 
 $h: 120px;
 $title-w: 200px;

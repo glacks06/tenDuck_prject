@@ -2,10 +2,10 @@
 
 .header_component{
     height: cons.$header-h;
-    background-image: linear-gradient(to right, #000046, #1CB5E0);
-    // background-color: cons.$default-theme-color;
+    background-image: cons.$header-bc-color;
     overflow: hidden;
     position: relative;
+    border-bottom: 1px solid white;
 
     .titleBox{
         display: flex;
