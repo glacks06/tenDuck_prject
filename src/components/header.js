@@ -12,8 +12,9 @@ function Header(){
                 <p>TenDuck</p>
             </div>
 
-            <ul>
-                <li></li>
+            <ul className={styles.navigation}>
+                <li>Dive Lanking</li>
+                <li>About</li>
             </ul>
         </header>
 
