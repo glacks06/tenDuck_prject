@@ -10,8 +10,11 @@ function Header(){
             <div className={styles.titleBox}>
                 <img src={logoImg}/>
                 <p>TenDuck</p>
-
             </div>
+
+            <ul>
+                <li></li>
+            </ul>
         </header>
 
     );

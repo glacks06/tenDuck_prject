@@ -7,27 +7,21 @@
     position: relative;
 
     .titleBox{
+        display: flex;
         width: cons.$header-title-w;
         height: cons.$header-title-h;
         margin: cons.$header-title-margin-top cons.$header-title-margin-left;
-        
-        display: flex;
         img{
             display: block;
-            width: 150px;
-            height: 50px;
+            width: cons.$header-title-img-size;
+            height: cons.$header-title-img-size;
         }
         p{
-            width: 150px;
-            height: 80px;
-            color: white;
-            font-size: 40px;
-            line-height: 80px;
-            /* background-color: brown; */
-
-            
+            width: cons.$header-title-text-box-w;
+            height: cons.$header-title-text-box-h;
+            color: cons.$header-title-text-color;
+            font-size: cons.$header-title-text-font-size;
+            line-height: cons.$header-title-text-line-height;
         }
     }
-
-
 }
