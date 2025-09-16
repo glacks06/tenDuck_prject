@@ -1,4 +1,3 @@
-// import styles from '../modules/_header.module.scss';
 
 
 function About(){
