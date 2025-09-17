@@ -1,12 +1,14 @@
+@use '../constants' as cons;
+
 article{
-    width: 150px;
-    height: 200px;
-    // background-color: red;
+    width: cons.$anims-article-w;
+    height: cons.$anims-article-h;
+    color: cons.$default-font-color;
     text-align: center;
     img{
         display: block;
-        width: 120px;
-        height: 150px;
-        margin: 10px auto;
+        width: cons.$anims-article-img-w;
+        height: cons.$anims-article-img-h;
+        margin: cons.$anims-article-img-vertical-margin auto;
     }
 }
