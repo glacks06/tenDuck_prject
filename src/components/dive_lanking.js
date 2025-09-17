@@ -9,13 +9,16 @@ function Dive_lanking(){
         <div id={styles.base}>
             <section>
                 <Anims anims_for_display={anims[0]}/>
-            </section>
-            {/* <section>
-                0
+                <div>100m</div>
             </section>
             <section>
-                0
-            </section> */}
+                <Anims anims_for_display={anims[1]}/>
+                <div>200m</div>
+            </section>
+            <section>
+                <Anims anims_for_display={anims[1]}/>
+                <div>500m</div>
+            </section>
         </div>
     );
 };
