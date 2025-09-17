@@ -1,7 +1,12 @@
 #base{
     background-image: linear-gradient(to top, black, #070781, #1CB5E0);
+    overflow: hidden;
     section{
+        display: flex;
+        padding: 0 10px;
         width: 100%;
-        height: 300px;
+        margin: 20px 0;
+        gap: 10px;
+        // height: 300px;
     }
 }

@@ -1,11 +1,11 @@
 import styles from '../modules/_header.module.scss';
-import logoImg from '../assets/imgs/logo.png'
+
 
 function Header(){
     return(
         <header className={styles.header_component}>
             <div className={styles.titleBox}>
-                <img src={logoImg}/>
+                <img src={'/imgs/logo.png'}/>
                 <p>TenDuck</p>
             </div>
 
