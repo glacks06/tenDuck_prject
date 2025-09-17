@@ -5,11 +5,11 @@
     section{
         position: relative;
         display: flex;
+        flex-wrap: wrap;
         padding: 0 10px;
         width: 100%;
         margin: 20px 0;
         gap: 10px;
-        // height: 300px;
         border-bottom: skyblue dotted 3px;
 
         div{
