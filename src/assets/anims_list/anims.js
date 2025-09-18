@@ -8,10 +8,6 @@ const anims_100m = [
 ];
 
 const anims_150m = [
-    {name: "닥터 스톤", path: '/imgs/anim_imgs/150m/drstone.png'}
-];
-
-const anims_200m = [
     {name: "귀멸의 칼날", path: '/imgs/anim_imgs/200m/demonslayer.png'},
     {name: "진격의 거인", path: '/imgs/anim_imgs/200m/attackontitan.png'},
     {name: "주술회전", path: '/imgs/anim_imgs/200m/jujutsukaisen.png'},
@@ -24,6 +20,36 @@ const anims_200m = [
     {name: "마슐", path: '/imgs/anim_imgs/200m/mashle.png'}
 ];
 
+const anims_200m = [
+    {name: "닥터 스톤", path: '/imgs/anim_imgs/150m/drstone.png'}
+];
 
-const anims = [anims_100m, anims_150m, anims_200m];
+const anims_500m = [
+    {name: "Re: 제로부터 시작하는 이세계 생활", path: '/imgs/anim_imgs/rezero.png'},
+    {name: "청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다", path: '/imgs/anim_imgs/bunnygirlsenpai.png'},
+    {name: "시원찮은 그녀를 위한 육성방법", path: '/imgs/anim_imgs/saekano.png'},
+    {name: "유사 하렘", path: '/imgs/anim_imgs/gishiharem.png'},
+    {name: "오키나와에서 좋아하게 된 아이가 사투리가 심해서 너무 괴로워", path: '/imgs/anim_imgs/okinawadialect.png'},
+    {name: "사랑은 세계정복 후에", path: '/imgs/anim_imgs/koisekai.png'},
+    {name: "그 비스크 돌은 사랑을 한다", path: '/imgs/anim_imgs/bisquedoll.png'},
+    {name: "카구야님은 고백받고 싶어", path: '/imgs/anim_imgs/kaguyasama.png'},
+    {name: "아마가미 씨네 인연 맺기", path: '/imgs/anim_imgs/amagami.png'},
+    {name: "내 마음의 위험한 녀석", path: '/imgs/anim_imgs/bokuyaba.png'},
+    {name: "당신은 저승님.", path: '/imgs/anim_imgs/anatawacest.png'},
+    {name: "장난을 잘 치는 타카기 양", path: '/imgs/anim_imgs/takagi.png'},
+    {name: "토라도라!", path: '/imgs/anim_imgs/toradora.png'},
+    {name: "선배가 짜증나는 후배 이야기", path: '/imgs/anim_imgs/senpaikouhai.png'},
+    {name: "괴수 8호", path: '/imgs/anim_imgs/kaiju.png'},
+    {name: "괴롭히지 말아요, 나가토로 양", path: '/imgs/anim_imgs/nagatoro.png'},
+    {name: "귀엽기만 한 게 아닌 시키모리 양", path: '/imgs/anim_imgs/shikimori.png'},
+    {name: "아하렌 양은 알 수가 없어", path: '/imgs/anim_imgs/aharen.png'},
+    {name: "지박소년 하나코 군", path: '/imgs/anim_imgs/hanakokun.png'},
+    {name: "이 회사에 좋아하는 사람이 있습니다", path: '/imgs/anim_imgs/konishasuki.png'},
+    {name: "철야의 노래", path: '/imgs/anim_imgs/yofukashinouta.png'},
+    {name: "이세계 유유자적 농가", path: '/imgs/anim_imgs/nouka.png'}
+];
+
+
+
+const anims = [anims_100m, anims_150m, anims_200m, anims_500m];
 export default anims;
