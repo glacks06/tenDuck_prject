@@ -4,7 +4,8 @@ const anims_100m = [
     {name: "블리치", path: '/imgs/anim_imgs/100m/bleach.png'},
     {name: "드래곤볼", path: '/imgs/anim_imgs/100m/dragonball.png'},
     {name: "짱구", path: '/imgs/anim_imgs/100m/shinchan.png'},
-    {name: "코난", path: '/imgs/anim_imgs/100m/detectiveconan.png'}
+    {name: "코난", path: '/imgs/anim_imgs/100m/detectiveconan.png'},
+    {name: "포켓몬스터", path: '/imgs/anim_imgs/100m/pokemon.png'}
 ];
 
 const anims_150m = [
