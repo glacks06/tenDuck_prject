@@ -1,0 +1,14 @@
+@use './default_cons' as default-cons;
+
+$background-gradient: linear-gradient(to top, black, #070781, #1CB5E0);
+$font-color: default-cons.$font-color;
+
+$section-horizontal-padding: 10px;
+$section-vertical-margin: 20px;
+$article-gap: 10px;
+$section-border-color: skyblue;
+$section-border-type: dotted;
+$section-border-size: 3px;
+
+$section-depth-p-right: 10px;
+$section-depth-p-bottom: 10px;

@@ -1,21 +1,23 @@
+@use '../constants' as cons;
+
 #base{
-    background-image: linear-gradient(to top, black, #070781, #1CB5E0);
-    color: white;
+    background-image: cons.$dive-background-gradient;
+    color: cons.$dive-font-color;
     overflow: hidden;
     section{
         position: relative;
         display: flex;
         flex-wrap: wrap;
-        padding: 0 10px;
+        padding: 0 cons.$dive-section-horizontal-padding;
         width: 100%;
-        margin: 20px 0;
-        gap: 10px;
-        border-bottom: skyblue dotted 3px;
+        margin: cons.$dive-section-vertical-margin 0;
+        gap: cons.$dive-article-gap;
+        border-bottom: cons.$dive-section-border-color cons.$dive-section-border-type cons.$dive-section-border-size;
 
         div{
             position: absolute;
-            right: 10px;
-            bottom: 10px;
+            right: cons.$dive-section-depth-p-right;
+            bottom: cons.$dive-section-depth-p-bottom;
         }
     }
 }
