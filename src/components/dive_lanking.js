@@ -23,21 +23,9 @@ function Dive_lanking(){
                 <Anims anims_for_display={anims[3]}/>
                 <div>500m</div>
             </section>
-                        <section>
-                <Anims anims_for_display={anims[2]}/>
+            <section>
+                <Anims anims_for_display={anims[4]}/>
                 <div>1000m</div>
-            </section>
-                        <section>
-                <Anims anims_for_display={anims[2]}/>
-                <div>1500m</div>
-            </section>
-                        <section>
-                <Anims anims_for_display={anims[2]}/>
-                <div>2000m</div>
-            </section>
-                        <section>
-                <Anims anims_for_display={anims[2]}/>
-                <div>3000m</div>
             </section>
         </div>
     );

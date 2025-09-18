@@ -49,7 +49,17 @@ const anims_500m = [
     {name: "이세계 유유자적 농가", path: '/imgs/anim_imgs/500m/nouka.png'}
 ];
 
+const anims_1000m = [
+    {name: "단다단", path: '/imgs/anim_imgs/1000m/dandadan.png'},
+    {name: "미래일기", path: '/imgs/anim_imgs/1000m/mirainikki.png'},
+    {name: "어둠의 실력자가 되고 싶어서!", path: '/imgs/anim_imgs/1000m/shadow.png'},
+    {name: "중2병이라도 사랑이 하고 싶어!", path: '/imgs/anim_imgs/1000m/chunibyo.png'},
+    {name: "언데드 언럭", path: '/imgs/anim_imgs/1000m/undeadunluck.png'},
+    {name: "Lv2부터 치트였던 전직 용사 후보의 유유자적 이세계 라이프", path: '/imgs/anim_imgs/1000m/lv2cheat.png'},
+    {name: "모브부터 시작하는 탐색 영웅담", path: '/imgs/anim_imgs/1000m/mobhero.png'},
+    {name: "내 여자친구와 소꿉친구가 완전 수라장", path: '/imgs/anim_imgs/1000m/shuraba.png'},
+    {name: "가끔씩 툭하고 러시아어로 부끄러워하는 옆자리의 아랴 양", path: '/imgs/anim_imgs/1000m/aryasan.png'}
+];
 
-
-const anims = [anims_100m, anims_150m, anims_200m, anims_500m];
+const anims = [anims_100m, anims_150m, anims_200m, anims_500m, anims_1000m];
 export default anims;
