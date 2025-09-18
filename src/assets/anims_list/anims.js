@@ -26,7 +26,6 @@ const anims_200m = [
 
 const anims_500m = [
     {name: "Re: 제로부터 시작하는 이세계 생활", path: '/imgs/anim_imgs/500m/rezero.png'},
-    {name: "청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다", path: '/imgs/anim_imgs/500m/bunnygirlsenpai.png'},
     {name: "시원찮은 그녀를 위한 육성방법", path: '/imgs/anim_imgs/500m/saekano.png'},
     {name: "유사 하렘", path: '/imgs/anim_imgs/500m/gishiharem.png'},
     {name: "오키나와에서 좋아하게 된 아이가 사투리가 심해서 너무 괴로워", path: '/imgs/anim_imgs/500m/okinawadialect.png'},
@@ -58,6 +57,7 @@ const anims_1000m = [
     {name: "Lv2부터 치트였던 전직 용사 후보의 유유자적 이세계 라이프", path: '/imgs/anim_imgs/1000m/lv2cheat.png'},
     {name: "모브부터 시작하는 탐색 영웅담", path: '/imgs/anim_imgs/1000m/mobhero.png'},
     {name: "내 여자친구와 소꿉친구가 완전 수라장", path: '/imgs/anim_imgs/1000m/shuraba.png'},
+    {name: "청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다", path: '/imgs/anim_imgs/500m/bunnygirlsenpai.png'},
     {name: "가끔씩 툭하고 러시아어로 부끄러워하는 옆자리의 아랴 양", path: '/imgs/anim_imgs/1000m/aryasan.png'}
 ];
 
