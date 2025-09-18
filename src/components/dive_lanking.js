@@ -20,7 +20,7 @@ function Dive_lanking(){
                 <div>200m</div>
             </section>
                         <section>
-                <Anims anims_for_display={anims[2]}/>
+                <Anims anims_for_display={anims[3]}/>
                 <div>500m</div>
             </section>
                         <section>
