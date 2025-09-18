@@ -61,5 +61,10 @@ const anims_1000m = [
     {name: "가끔씩 툭하고 러시아어로 부끄러워하는 옆자리의 아랴 양", path: '/imgs/anim_imgs/1000m/aryasan.png'}
 ];
 
-const anims = [anims_100m, anims_150m, anims_200m, anims_500m, anims_1000m];
+const anims_1500m = [
+    {name: "환생했는데 제7왕자라 내맘대로 마술을 연마합니다", path: '/imgs/anim_imgs/1500m/prince7.png'},
+    {name: "너를 너무너무너무너무 좋아하는 100명의 그녀", path: '/imgs/anim_imgs/1500m/100girlfriends.png'}
+];
+
+const anims = [anims_100m, anims_150m, anims_200m, anims_500m, anims_1000m, anims_1500m];
 export default anims;
