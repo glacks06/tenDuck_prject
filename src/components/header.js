@@ -1,5 +1,5 @@
 import styles from '../modules/_header.module.scss';
-
+import { Link } from 'react-router-dom';
 
 function Header(){
     return(
@@ -10,8 +10,8 @@ function Header(){
             </div>
 
             <ul className={styles.navigation}>
-                <li>Dive Lanking</li>
-                <li>About</li>
+                <li><Link to={'/'}>Dive Lanking</Link></li>
+                <li><Link to={'/about'}>About</Link></li>
             </ul>
         </header>
 

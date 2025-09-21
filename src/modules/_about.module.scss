@@ -1,0 +1,19 @@
+@use '../constants' as cons;
+
+.base{
+    height: 1000px;
+    background-image: cons.$about-background-gradient;
+    overflow: hidden;
+    color: cons.$default-font-color;
+    .inner{
+        display: flex;
+        flex-direction: column;
+        gap: cons.$about-flex-gap;
+        width: cons.$about-inner-w;
+        margin: cons.$about-inner-vertical-margin auto;
+        p{
+            
+          h1{margin-bottom: cons.$about-h1-bottom-margin;}
+        }
+    }
+}
