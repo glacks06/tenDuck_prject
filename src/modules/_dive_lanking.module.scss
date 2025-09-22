@@ -14,10 +14,31 @@
         gap: cons.$dive-article-gap;
         border-bottom: cons.$dive-section-border-color cons.$dive-section-border-type cons.$dive-section-border-size;
 
-        div{
+        .depth_inform{
+            // display: none;
+            opacity: 0;
+            position: absolute;
+            padding: 0 cons.$dive-depth-inform-horizontal-padding;
+            right: cons.$dive-depth-inform-right;
+            bottom: cons.$dive-depth-inform-bottom;
+            border-left: cons.$dive-depth-inform-border-color 
+                         cons.$dive-depth-inform-border-type 
+                         cons.$dive-depth-inform-border-size;
+            border-right: cons.$dive-depth-inform-border-color 
+                          cons.$dive-depth-inform-border-type 
+                          cons.$dive-depth-inform-border-size;
+            background-color: cons.$dive-depth-inform-background-color;
+            transition-duration: cons.$dive-depth-inform-transition-duration;
+        }
+
+        .depth_num{
             position: absolute;
             right: cons.$dive-section-depth-p-right;
             bottom: cons.$dive-section-depth-p-bottom;
+
+            &:hover ~ .depth_inform{
+                opacity: 1;
+            }
         }
     }
 }

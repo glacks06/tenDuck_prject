@@ -9,27 +9,34 @@ function Dive_lanking(){
         <div id={styles.base}>
             <section>
                 <Anims anims_for_display={anims[0]}/>
-                <div>100m</div>
+                <p className={styles.depth_num}>100m</p>
+                <div className={styles.depth_inform}>완전 메이저. 일반인한테 추천해도 이상하게 보이지 않음</div>
             </section>
             <section>
                 <Anims anims_for_display={anims[1]}/>
-                <div>150m</div>
+                <p className={styles.depth_num}>150m</p>
+                <div className={styles.depth_inform}>메이저라고 하기엔 아주 살짝 애매. 패션씹덕이거나 입덕부정기일 가능성이 있음</div>
             </section>
             <section>
                 <Anims anims_for_display={anims[2]}/>
-                <div>200m</div>
+                <p className={styles.depth_num}>200m</p>
+                <div className={styles.depth_inform}>진입장벽은 낮은데 인지도가 없는 작품</div>
+                
             </section>
-                        <section>
+            <section>
                 <Anims anims_for_display={anims[3]}/>
-                <div>500m</div>
+                <p className={styles.depth_num}>500m</p>
+                <div className={styles.depth_inform}>약간의 진입장벽. 일반인이 애니를 보았을 때 표정이 썩기 시작하는 구간?</div>
             </section>
             <section>
                 <Anims anims_for_display={anims[4]}/>
-                <div>1000m</div>
+                <p className={styles.depth_num}>1000m</p>
+                <div className={styles.depth_inform}>진입어려움.</div>
             </section>
             <section>
                 <Anims anims_for_display={anims[5]}/>
-                <div>1500m</div>
+                <p className={styles.depth_num}>1500m</p>
+                <div className={styles.depth_inform}>쉽지않은 주제, 심연인가 싶은 작품</div>
             </section>
         </div>
     );
