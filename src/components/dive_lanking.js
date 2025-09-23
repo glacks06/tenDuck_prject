@@ -1,5 +1,5 @@
 import styles from '../modules/_dive_lanking.module.scss'
-import Anims from './anims_article';
+import Anims from './animsArticle';
 import anims from '../assets/anims_list/anims';
 
 // Anims에 anims_list 전달

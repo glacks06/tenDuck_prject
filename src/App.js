@@ -1,5 +1,5 @@
 import './css/App.css';
-import {Header, Dive_lanking, About, Anim_detail} from './components'
+import {Header, Dive_lanking, About, AnimDetail} from './components'
 import { Routes, Route } from 'react-router-dom';
 import anims from './assets/anims_list/anims';
 
@@ -10,7 +10,7 @@ const anim_routers = Array.from({ length: 5 });
 for(let i = 0; i < anims.length; i += 1){
   anim_routers[i] = anims[i].map((elmt) => {
     return (
-      <Route path={`/detail/${elmt.name}`} element={<Anim_detail animName={elmt.name} imgPath={elmt.path} animPlot={elmt.plot} animBarrier={elmt.barrier}/>} />
+      <Route path={`/detail/${elmt.name}`} element={<AnimDetail animName={elmt.name} imgPath={elmt.path} animPlot={elmt.plot} animBarrier={elmt.barrier}/>} />
     );
   });
 }

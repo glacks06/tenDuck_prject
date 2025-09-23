@@ -16,9 +16,7 @@
             margin-bottom: cons.$detail-p-margin-bottom;
             line-height: cons.$detail-h1-line-height;
         }
-        span{
-            line-height: cons.$detail-content-line-height;
-        }
+        span{line-height: cons.$detail-content-line-height;}
     }
     .plot{
         width: cons.$detail-plot-w;

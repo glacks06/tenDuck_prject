@@ -2,10 +2,10 @@ import styles from '../modules/_anim_detail.module.scss'
 
 // Anims에 anims_list 전달
 
-function Anim_detail(props){
+function AnimDetail(props){
     return(
         <div className={styles.base}>
-            <img src={props.imgPath} className={styles.poster}/>
+            <img src={props.imgPath} alt={props.animName} className={styles.poster}/>
 
             <p className={styles.plot}>
                 <h1>{props.animName}</h1>
@@ -20,4 +20,4 @@ function Anim_detail(props){
     );
 };
 
-export default Anim_detail;
+export default AnimDetail;
