@@ -1,5 +1,6 @@
 import './css/App.css';
-import {Header, Dive_lanking, About, AnimDetail} from './components'
+
+import {Header, DiveLanking, About, AnimDetail} from './components'
 import { Routes, Route } from 'react-router-dom';
 import anims from './assets/anims_list/anims';
 
@@ -23,7 +24,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Dive_lanking />} />
+        <Route path="/" element={<DiveLanking />} />
         <Route path="/about" element={<About />} />
         {anim_routers}
 

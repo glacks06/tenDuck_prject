@@ -4,7 +4,7 @@ import anims from '../assets/anims_list/anims';
 
 // Anims에 anims_list 전달
 
-function Dive_lanking(){
+function DiveLanking(){
     return(
         <div className={styles.base}>
             <section>
@@ -42,4 +42,4 @@ function Dive_lanking(){
     );
 };
 
-export default Dive_lanking;
+export default DiveLanking;
