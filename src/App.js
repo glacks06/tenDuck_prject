@@ -24,7 +24,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<DiveLanking />} />
+        <Route path="/tenDuck_prject" element={<DiveLanking />} />
         <Route path="/about" element={<About />} />
         {anim_routers}
 
