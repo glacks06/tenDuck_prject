@@ -1,6 +1,7 @@
 @use '../constants' as cons;
 
-article{
+.article_link{
+    display: block;
     width: cons.$anims-article-w;
     height: cons.$anims-article-h;
     color: cons.$default-font-color;

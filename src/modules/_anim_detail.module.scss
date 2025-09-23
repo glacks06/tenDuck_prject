@@ -1,0 +1,40 @@
+@use '../constants' as cons;
+
+.base{
+    background-image: cons.$detail-background-gradient;
+    color: cons.$detail-font-color;
+    overflow: hidden;
+
+    .poster{
+        display: block;
+        margin: cons.$detail-poster-vertical-margin auto;
+        width: cons.$detail-poster-w;
+    }
+
+    p{
+        h1{
+            margin-bottom: cons.$detail-p-margin-bottom;
+            line-height: cons.$detail-h1-line-height;
+        }
+        span{
+            line-height: cons.$detail-content-line-height;
+        }
+    }
+    .plot{
+        width: cons.$detail-plot-w;
+        margin: cons.$detail-plot-vertical-margin auto;
+        padding: cons.$detail-plot-padding;
+        border-top: cons.$detail-plot-border-color
+                    cons.$detail-plot-border-type 
+                    cons.$detail-plot-border-size;
+    }
+    .barrier{
+        width: cons.$detail-barrier-w;
+        margin: cons.$detail-barrier-vertical-margin auto;
+        padding: cons.$detail-barrier-padding;
+        border-top: cons.$detail-barrier-border-color
+                    cons.$detail-barrier-border-type 
+                    cons.$detail-barrier-border-size;
+    }
+
+}

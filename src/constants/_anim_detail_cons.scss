@@ -1,0 +1,26 @@
+@use './default_cons' as default-cons;
+@use './dive_lanking_cons' as dive-cons;
+
+$background-gradient: dive-cons.$background-gradient;
+$font-color: dive-cons.$font-color;
+$h1-line-height: 40px;
+$content-line-height: 30px;
+
+$poster-vertical-margin: 50px;
+$poster-w: 400px;
+
+$p-margin-bottom: 20px;
+
+$plot-w: 80%;
+$plot-vertical-margin: 100px;
+$plot-padding: 20px;
+$plot-border-color: white;
+$plot-border-type: solid;
+$plot-border-size: 2px;
+
+$barrier-w: $plot-w;
+$barrier-vertical-margin: $plot-vertical-margin;
+$barrier-padding: $plot-padding;
+$barrier-border-color: $plot-border-color;
+$barrier-border-type: $plot-border-type;
+$barrier-border-size: $plot-border-size;
