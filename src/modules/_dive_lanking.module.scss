@@ -1,6 +1,6 @@
 @use '../constants' as cons;
 
-#base{
+.base{
     background-image: cons.$dive-background-gradient;
     color: cons.$dive-font-color;
     overflow: hidden;

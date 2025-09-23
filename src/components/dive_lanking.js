@@ -6,7 +6,7 @@ import anims from '../assets/anims_list/anims';
 
 function Dive_lanking(){
     return(
-        <div id={styles.base}>
+        <div className={styles.base}>
             <section>
                 <Anims anims_for_display={anims[0]}/>
                 <p className={styles.depth_num}>100m</p>
