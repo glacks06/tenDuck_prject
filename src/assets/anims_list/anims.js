@@ -109,107 +109,108 @@ const anims_200m = [
 const anims_500m = [
     {
         name: "Re: 제로부터 시작하는 이세계 생활", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/rezero.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/rezero.png`,
+        plot: "편의점에서 돌아오던 중 갑자기 이세계로 소환된 주인공 나츠키 스바루가 사망 시 시간을 되돌리는 '사망귀환' 능력으로 소중한 사람들을 지키기 위해 절망에 맞서는 이야기."
     },
     {
         name: "시원찮은 그녀를 위한 육성방법", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/saekano.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/saekano.png`,
+        plot: "오타쿠 고교생 아키 토모야가 존재감 없는 반 친구 카토 메구미를 최고의 미소녀 게임 히로인으로 만들기 위해 동아리 멤버들과 고군분투하는 청춘 코미디."
     },
     {
         name: "유사 하렘", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/gishiharem.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/gishiharem.png`,
+        plot: "연극부 선배 키타하마 에이지의 '하렘' 소망을 이뤄주기 위해 후배 나나쿠라 린이 츤데레, 쿨뷰티 등 다양한 캐릭터를 연기하며 벌어지는 로맨틱 코미디."
     },
     {
         name: "오키나와에서 좋아하게 된 아이가 사투리가 심해서 너무 괴로워", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/okinawadialect.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/okinawadialect.png`,
+        plot: "도쿄에서 오키나와로 전학 온 나카무라 테루아키가, 알아듣기 힘든 오키나와 사투리를 쓰는 喜屋武(캰) 히나를 좋아하게 되면서 벌어지는 이문화 로맨틱 코미디."
     },
     {
         name: "사랑은 세계정복 후에", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/koisekai.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/koisekai.png`,
+        plot: "세계 평화를 목표로 하는 히어로 전대의 리더 아이카와 후도와 세계 정복을 노리는 비밀 결사의 전투원 데스미 마가미가 적대 관계를 넘어 비밀 연애를 하는 이야기."
     },
     {
         name: "그 비스크 돌은 사랑을 한다", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/bisquedoll.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/bisquedoll.png`,
+        plot: "히나 인형 장인을 꿈꾸는 소년 고죠 와카나와 코스프레를 좋아하는 인싸 소녀 키타가와 마린이 코스프레 의상 제작을 통해 서로의 세계를 알아가는 로맨스."
     },
     {
         name: "카구야님은 고백받고 싶어", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/kaguyasama.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/kaguyasama.png`,
+        plot: "엘리트들이 모인 슈치인 학원 학생회에서, 서로 좋아하지만 자존심 때문에 먼저 고백하지 않으려는 회장 시로가네 미유키와 부회장 시노미야 카구야의 밀당 두뇌 싸움."
     },
     {
         name: "아마가미 씨네 인연 맺기", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/amagami.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/amagami.png`,
+        plot: "의대생을 목표로 하는 고등학생 우류 카미유가 교토의 신사를 이어받게 되면서, 그곳의 무녀인 세 자매와 함께 살며 벌어지는 로맨틱 코미디."
     },
     {
         name: "내 마음의 위험한 녀석", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/bokuyaba.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/bokuyaba.png`,
+        plot: "중2병 음침 소년 이치카와 쿄타로가 반의 인기 미소녀 야마다 안나를 관찰하며 망상에 빠지지만, 점차 그녀의 의외의 모습에 마음을 빼앗기는 청춘 로맨스."
     },
     {
         name: "당신은 저승님.", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/anatawacest.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/anatawacest.png`,
+        plot: "어느 날 갑자기 집안일을 돕기 위해 나타난 정체불명의 메이드와 고용주인 고등학생 히토요시 유키의 일상을 그린 미스터리 메이드 코미디."
     },
     {
         name: "장난을 잘 치는 타카기 양", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/takagi.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/takagi.png`,
+        plot: "중학생 소년 니시카타가 옆자리의 소녀 타카기 양에게 끊임없이 장난을 당하고, 이를 되갚아주려 하지만 번번이 실패하며 겪는 풋풋한 일상 로맨스."
     },
     {
         name: "토라도라!", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/toradora.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/toradora.png`,
+        plot: "험악한 인상 때문에 오해받는 타카스 류지와 작은 키 때문에 '미니 타이거'라 불리는 아이사카 타이가가 서로의 짝사랑을 돕기로 하면서 벌어지는 이야기."
     },
     {
         name: "선배가 짜증나는 후배 이야기", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/senpaikouhai.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/senpaikouhai.png`,
+        plot: "직장 후배 이가라시 후타바와 덩치 크고 둔감하지만 잘 챙겨주는 선배 타케다 하루미의 관계를 중심으로 펼쳐지는 오피스 로맨틱 코미디."
     },
     {
         name: "괴수 8호", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/kaiju.png`
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/kaiju.png`,
+        plot: "괴수 청소부로 일하던 주인공 히비노 카프카가 의도치 않게 괴수의 힘을 얻게 되어, 방위대원으로서 괴수와 싸우는 꿈에 다시 도전하는 이야기."
     },
     {
         name: "괴롭히지 말아요, 나가토로 양", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/nagatoro.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/nagatoro.png`,
+        plot: "소심한 선배를 짓궂게 놀리는 것을 좋아하는 후배 나가토로 하야세의 장난을 통해 두 사람의 관계가 점차 가까워지는 로맨틱 코미디."
     },
     {
         name: "귀엽기만 한 게 아닌 시키모리 양", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/shikimori.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/shikimori.png`,
+        plot: "불행 체질인 남자친구 이즈미 유우를 지키기 위해 결정적인 순간에帅帅한 'イケメン'으로 변하는 시키모리 미촌의 모습을 그린 로맨틱 코미디."
     },
     {
         name: "아하렌 양은 알 수가 없어", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/aharen.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/aharen.png`,
+        plot: "타인과의 거리 조절을 잘 못하는 작은 소녀 아하렌 레이나와 그녀의 옆자리 남학생 라이도 마츠보시의 예측 불가능한 일상을 그린 청춘 코미디."
     },
     {
         name: "지박소년 하나코 군", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/hanakokun.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/hanakokun.png`,
+        plot: "구교사 여자 화장실의 '하나코 씨'를 불러낸 소녀 야시로 네네가 학교의 7대 불가사의와 얽히며 벌어지는 괴이 로맨스."
     },
     {
         name: "이 회사에 좋아하는 사람이 있습니다", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/konishasuki.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/konishasuki.png`,
+        plot: "경리부의 진지하고 과묵한 남자 사토와 동료인 타테이시가 사내 비밀 연애를 시작하면서 겪는 달콤하고 설레는 오피스 로맨스."
     },
     {
         name: "철야의 노래", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/yofukashinouta.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/yofukashinouta.png`,
+        plot: "등교 거부를 하며 밤에 잠 못 이루는 소년 야모리 코우가 흡혈귀 나나쿠사 나즈나를 만나 밤의 즐거움에 눈을 뜨고, 그녀처럼 흡혈귀가 되기 위해 분투하는 이야기."
     },
     {
         name: "이세계 유유자적 농가", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/nouka.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/nouka.png`,
+        plot: "병으로 죽은 주인공이 신에게 받은 '만능농구'로 이세계의 숲에서 농사를 지으며 엘프, 흡혈귀 등 다양한 종족과 함께 마을을 만들어가는 슬로우 라이프물."
     }
 ];
 
