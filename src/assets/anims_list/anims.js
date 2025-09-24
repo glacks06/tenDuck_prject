@@ -48,52 +48,53 @@ const anims_100m = [
 const anims_150m = [
     {
         name: "귀멸의 칼날", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/demonslayer.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/demonslayer.png`,
+        plot: "혈귀로 변해버린 여동생을 인간으로 되돌리기 위해, 주인공 카마도 탄지로가 귀살대에 입단하여 혈귀들과 싸워나가는 이야기."
     },
     {
         name: "진격의 거인", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/attackontitan.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/attackontitan.png`,
+        plot: "벽 바깥 세상에 대한 자유를 갈망하는 소년 엘런 예거가 거인들의 위협에 맞서 싸우며 세계의 진실에 다가가는 다크 판타지."
     },
     {
         name: "주술회전", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/jujutsukaisen.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/jujutsukaisen.png`,
+        plot: "경이로운 신체 능력을 가진 고등학생 이타도리 유지가 저주를 풀기 위해 주술고전에 들어가 주령들과 싸우는 이야기."
     },
     {
-        name: "하이큐", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/haikyuu.png`
-
+        name: "하이큐!!", 
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/haikyuu.png`,
+        plot: "작은 키의 주인공 히나타 쇼요가 배구에 대한 열정으로 카라스노 고교에 입학하여 동료들과 함께 전국 대회를 목표로 성장하는 스포츠물."
     },
     {
-        name: "원퍼맨", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/onepunchman.png`
-
+        name: "원펀맨", 
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/onepunchman.png`,
+        plot: "어떤 적이든 단 한 방의 펀치로 쓰러뜨리는 너무나도 강력한 히어로 사이타마의 허무하고 코믹한 일상을 그린 히어로물."
     },
     {
-        name: "나혼자만 레벨업", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/sololeveling.png`
-
+        name: "나 혼자만 레벨업", 
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/sololeveling.png`,
+        plot: "인류 최약체 헌터로 불리던 주인공 성진우가 특정 계기로 혼자만 레벨업 할 수 있는 능력을 얻게 되어 최강의 헌터로 거듭나는 이야기."
     },
     {
         name: "헌터X헌터", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/hunterxhunter.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/hunterxhunter.png`,
+        plot: "아버지와 같은 최고의 헌터가 되기 위해 고향을 떠난 주인공 곤 프릭스가 동료들을 만나고 어려운 시험에 도전하며 성장하는 모험물."
     },
     {
         name: "SPYxFAMILY", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/spyxfamily.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/spyxfamily.png`,
+        plot: "서로의 정체를 숨긴 채 위장 가족을 만든 스파이 아빠, 암살자 엄마, 초능력자 딸이 세계 평화를 위해 고군분투하는 코믹 액션물."
     },
     {
         name: "장송의 프리렌", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/frieren.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/frieren.png`,
+        plot: "마왕을 물리친 용사 일행의 엘프 마법사 프리렌이 동료의 죽음 후, 인간을 알아가기 위해 새로운 여행을 떠나는 판타지 드라마."
     },
     {
         name: "마슐", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/mashle.png`
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/200m/mashle.png`,
+        plot: "마법이 당연한 세상에서 마법을 쓰지 못하는 주인공 마슈 번데드가 오직 단련된 근육만으로 마법학교의 정점에 서려는 판타지 코미디."
     }
 ];
 
