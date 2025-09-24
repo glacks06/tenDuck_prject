@@ -101,7 +101,8 @@ const anims_150m = [
 const anims_200m = [
     {
         name: "닥터 스톤", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/150m/drstone.png`
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/150m/drstone.png`,
+        plot: "어느 날 갑자기 전 인류가 돌로 변해버린 후 수천 년이 지나 깨어난 천재 소년 이시가미 센쿠가 과학의 힘으로 문명을 재건하는 이야기."
     }
 ];
 
