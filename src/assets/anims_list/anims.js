@@ -3,37 +3,45 @@ const anims_100m = [
         name: "원피스", 
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/onepiece.png`,
         plot: '세계 제일 대비보 원피스를 찾고자 여행에 나선 해적 몽키 D. 루피와 그가 이끄는 해적단 밀짚모자 일당이 동료들을 영입하며, 바다를 항해하고 여러 섬들을 모험하는 여정을 그리고 있다.',
-        barrier: '없음'
+        barrier: '애니화된 분량이 매우 많아 전부 다 보기 힘들다.'
     },
     {
         name: "나루토", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/naruto.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/naruto.png`,
+        plot: '나뭇잎 마을의 고아 소년인 우즈마키 나루토가 닌자의 세계에서 호카게(마을의 수장)가 되기 위해 노력하며 성장하는 이야기',
+        barrier: '후속작을 제외하면 이미 완결이 났으나 애니화된 분량이 많은 편'
     },
     {
         name: "블리치", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/bleach.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/bleach.png`,
+        plot: '유령을 볼 수 있는 고등학생의 소년 쿠로사키 이치고. 어느 날 자신을 사신이라고 칭한 여자, 쿠치키 루키아를 만나 사신의 힘을 양도 받게 되고 대신 사신의 일을 하게 되는데',
+        barrier: ''
     },
     {
         name: "드래곤볼", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/dragonball.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/dragonball.png`,
+        plot: '신비한 존재인 드래곤볼을 모아 소원을 이루는 모험을 떠나는 손오공이라는 소년의 성장 이야기',
+        barrier: ''
     },
     {
         name: "짱구", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/shinchan.png`
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/shinchan.png`,
+        plot: '말썽꾸러기 5살짜리 짱구(노하라 신노스케)와 그의 가족, 그리고 이웃들이 겪는 일상을 코믹하게 그린 일본 만화 및 애니메이션',
+        barrier: ''
 
     },
     {
         name: "코난", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/detectiveconan.png`
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/detectiveconan.png`,
+        plot: '고등학생 탐정 쿠도 신이치가 검은 조직의 약물로 인해 초등학생의 몸이 되어 에도와 코난이라는 이름으로 활동하며 사건을 해결하고, 조직의 비밀을 파헤치는 이야기',
+        barrier: ''
 
     },
     {
         name: "포켓몬스터", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/pokemon.png`
-
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/100m/pokemon.png`,
+        plot: "'포켓몬 마스터'가 되기를 꿈꾸는 소년 '한지우'가 파트너 포켓몬 '피카츄'와 함께 여러 지방을 여행하며 새로운 포켓몬들을 만나고, 동료들과 친구가 되어 포켓몬 배틀을 통해 성장해나가는 이야기",
+        barrier: ''
     }
 ];
 
