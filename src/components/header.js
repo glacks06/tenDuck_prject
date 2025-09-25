@@ -5,7 +5,7 @@ function Header(){
     return(
         <header className={styles.header_component}>
             <div className={styles.titleBox}>
-                <img src={`${process.env.PUBLIC_URL}/imgs/logo.png`}/>
+                <img src={`${process.env.PUBLIC_URL}/imgs/logo.png`} alt='logo'/>
                 <p>TenDuck</p>
             </div>
 
