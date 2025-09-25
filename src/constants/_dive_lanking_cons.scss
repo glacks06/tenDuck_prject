@@ -1,8 +1,9 @@
 @use './default_cons' as default-cons;
 
-$background-gradient: linear-gradient(to bottom, #1CB5E0, #020223, #03033a, black);
+$background-gradient: linear-gradient(to bottom, #f4ab21,#1CB5E0, #020223, #03033a, black);
 
 $font-color: default-cons.$font-color;
+$base-padding-top: 50px;
 
 $section-horizontal-padding: 10px;
 $section-vertical-margin: 20px;
