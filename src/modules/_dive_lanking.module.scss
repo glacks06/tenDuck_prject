@@ -4,6 +4,18 @@
     background-image: cons.$dive-background-gradient;
     color: cons.$dive-font-color;
     overflow: hidden;
+
+    .remote{
+        display: block;
+        position: fixed;
+        right: 5px;
+        bottom: 5px;
+        width: 50px;
+        height: 50px;
+
+        z-index: 100;
+    }
+
     section{
         position: relative;
         display: flex;

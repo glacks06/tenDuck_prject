@@ -7,6 +7,7 @@ import anims from '../assets/anims_list/anims';
 function DiveLanking(){
     return(
         <div className={styles.base}>
+            <img src={`${process.env.PUBLIC_URL}/imgs/logo.png`} alt='logo' className={styles.remote} />
             <section>
                 <Anims anims_for_display={anims[0]}/>
                 <p className={styles.depth_num}>100m</p>

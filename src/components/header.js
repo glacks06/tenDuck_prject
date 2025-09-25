@@ -6,7 +6,7 @@ function Header(){
         <header className={styles.header_component}>
             <div className={styles.titleBox}>
                 <img src={`${process.env.PUBLIC_URL}/imgs/logo.png`} alt='logo'/>
-                <p>TenDuck</p>
+                <p><Link to={'/'}>TenDuck</Link></p>
             </div>
 
             <ul className={styles.navigation}>
