@@ -10,7 +10,7 @@ function Header(){
             </div>
 
             <ul className={styles.navigation}>
-                <li><Link to={'/tenDuck_prject/'}>Dive Lanking</Link></li>
+                <li><Link to={'/'}>Dive Lanking</Link></li>
                 <li><Link to={'/about'}>About</Link></li>
             </ul>
         </header>
