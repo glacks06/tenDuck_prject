@@ -6,10 +6,15 @@
     height: cons.$anims-article-h;
     color: cons.$default-font-color;
     text-align: center;
+    transition-duration: 0.2s;
+
     img{
         display: block;
         width: cons.$anims-article-img-w;
         height: cons.$anims-article-img-h;
         margin: cons.$anims-article-img-vertical-margin auto;
+    }
+    &:hover{
+        opacity: 0.5;
     }
 }
