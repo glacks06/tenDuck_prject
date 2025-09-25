@@ -216,52 +216,54 @@ const anims_500m = [
 
 const anims_1000m = [
     {
-        name: "단다단", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/dandadan.png`
+        name: "단다단",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/dandadan.png`,
+        plot: "유령의 존재를 믿는 소녀 아야세 모모와 UFO의 존재를 믿는 소년 타카쿠라 켄이 서로의 신념을 증명하기 위해 기괴한 사건들에 맞서는 오컬트 액션 만화."
     },
     {
-        name: "미래일기", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/mirainikki.png`
+        name: "미래일기",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/mirainikki.png`,
+        plot: "우연히 미래를 예측하는 '미래일기'를 손에 넣은 중학생 아마노 유키테루가 다른 일기 소유자들과 최후의 1인이 되기 위해 벌이는 서바이벌 게임."
     },
     {
-        name: "어둠의 실력자가 되고 싶어서!", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/shadow.png`
-
+        name: "어둠의 실력자가 되고 싶어서!",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/shadow.png`,
+        plot: "어릴 때부터 '어둠의 실력자'를 동경하던 한 소년이 이세계로 전생하여, 망상으로 만들어낸 조직 '섀도우 가든'을 이끌며 진짜 악의 조직과 맞서 싸우는 이야기."
     },
     {
-        name: "중2병이라도 사랑이 하고 싶어!", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/chunibyo.png`
-
+        name: "중2병이라도 사랑이 하고 싶어!",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/chunibyo.png`,
+        plot: "중2병을 졸업하고 평범한 고등학생이 되려는 토가시 유타가 아직 중2병에서 헤어나오지 못한 동급생 타카나시 릿카를 만나면서 벌어지는 학원 로맨틱 코미디."
     },
     {
-        name: "언데드 언럭", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/undeadunluck.png`
-
+        name: "언데드 언럭",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/undeadunluck.png`,
+        plot: "자신과 닿는 사람에게 불운을 가져다주는 소녀 이즈모 후코와 절대 죽지 않는 불사의 능력을 가진 남자 앤디가 만나 세계의 룰에 맞서는 이야기."
     },
     {
-        name: "Lv2부터 치트였던 전직 용사 후보의 유유자적 이세계 라이프", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/lv2cheat.png`
-
+        name: "Lv2부터 치트였던 전직 용사 후보의 유유자적 이세계 라이프",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/lv2cheat.png`,
+        plot: "용사 후보로 이세계에 소환되었지만 레벨 1 능력치가 낮다는 이유로 추방된 주인공이, 레벨 2가 되자마자 먼치킨 능력을 각성하여 유유자적한 이세계 생활을 즐기는 이야기."
     },
     {
-        name: "모브부터 시작하는 탐색 영웅담", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/mobhero.png`
-
+        name: "모브부터 시작하는 탐색 영웅담",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/mobhero.png`,
+        plot: "평범한 '모브(엑스트라)' 고등학생이었던 타카기 카이토가 어느 날 갑자기 강력한 힘을 손에 넣고, 매력적인 히로인들과 함께 던전을 탐험하며 영웅으로 성장하는 이야기."
     },
     {
-        name: "내 여자친구와 소꿉친구가 완전 수라장", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/shuraba.png`
-
+        name: "내 여자친구와 소꿉친구가 완전 수라장",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/shuraba.png`,
+        plot: "연애에 관심 없는 평범한 고등학생 키도 에이타가 은발의 미소녀 나츠카와 마스즈의 가짜 남자친구 행세를 하게 되면서 소꿉친구 하루사키 치와까지 얽혀 복잡한 연애 수라장에 빠지는 이야기."
     },
     {
-        name: "청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/bunnygirlsenpai.png`
-
+        name: "청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/bunnygirlsenpai.png`,
+        plot: "주변 사람들에게 모습이 보이지 않게 되는 '사춘기 증후군'을 겪는 선배 사쿠라지마 마이를 도와주면서, 주인공 아즈사가와 사쿠타가 다른 소녀들의 불가사의한 사건들을 해결해 나가는 이야기."
     },
     {
-        name: "가끔씩 툭하고 러시아어로 부끄러워하는 옆자리의 아랴 양", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/aryasan.png`
-
+        name: "가끔씩 툭하고 러시아어로 부끄러워하는 옆자리의 아랴 양",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/aryasan.png`,
+        plot: "은발의 러시아 혼혈 미소녀 아랴가 옆자리 남학생 쿠제 마사치카에게 러시아어로 본심을 고백하지만, 사실 마사치카가 러시아어를 알아들으면서 벌어지는 달콤한 청춘 러브 코미디."
     }
 ];
 
