@@ -269,12 +269,14 @@ const anims_1000m = [
 
 const anims_1500m = [
     {
-        name: "환생했는데 제7왕자라 내맘대로 마술을 연마합니다", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1500m/prince7.png`
+        name: "환생했는데 제7왕자라 내맘대로 마술을 연마합니다",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1500m/prince7.png`,
+        plot: "마술에 인생을 바쳤지만 평범한 혈통 때문에 능력을 제대로 발휘하지 못하고 죽은 마술사가, 엄청난 마력과 혈통을 지닌 왕국의 제7왕자로 환생하여 자유롭게 마술을 연마하는 이야기."
     },
     {
-        name: "너를 너무너무너무너무 좋아하는 100명의 그녀", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1500m/100girlfriends.png`
+        name: "너를 너무너무너무너무 좋아하는 100명의 그녀",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1500m/100girlfriends.png`,
+        plot: "중학교 졸업까지 100번 고백하고 100번 차인 주인공 렌타로가 고등학교에서 만날 100명의 운명의 그녀들을 모두 행복하게 해주기 위해 고군분투하는 학원 하렘 코미디."
     }
 ];
 
