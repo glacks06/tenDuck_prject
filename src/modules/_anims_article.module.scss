@@ -15,6 +15,6 @@
         margin: cons.$anims-article-img-vertical-margin auto;
     }
     &:hover{
-        opacity: 0.5;
+        opacity: cons.$anims-article-hover-opacity;
     }
 }
