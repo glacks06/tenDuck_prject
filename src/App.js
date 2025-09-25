@@ -4,6 +4,8 @@ import {Header, DiveLanking, About, AnimDetail} from './components'
 import { Routes, Route } from 'react-router-dom';
 import anims from './assets/anims_list/anims';
 
+import ScrollToTop from './side_effects/ScrollToTop';
+
 
 const anim_routers = Array.from({ length: 5 });
 
@@ -21,6 +23,8 @@ for(let i = 0; i < anims.length; i += 1){
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
+
       <Header />
 
       <Routes>
