@@ -10,6 +10,9 @@
         margin: cons.$detail-poster-vertical-margin auto;
         width: cons.$detail-poster-w;
     }
+    @media (min-width: cons.$detail-poster-max-w){
+        .poster{width: cons.$detail-poster-max-w;}
+    }
 
     p{
         h1{

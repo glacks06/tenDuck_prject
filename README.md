@@ -97,3 +97,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### v0.0.5
 - dive lanking의 최하단 간격 추가
 - 편의기능 버튼을 통해 수심 이동 박스 표시기능 구현
+
+### v0.0.6
+- poster 가로 사이즈 제한
