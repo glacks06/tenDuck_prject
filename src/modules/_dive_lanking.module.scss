@@ -11,19 +11,20 @@
         position: fixed;
         width: 100px;
         // height: 180px;
-        right: 5px;
+        right: -100px;
         bottom: 60px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 8px;
+        transition-duration: 0.5s;
 
         z-index: 100;
         border: skyblue solid 1px;
         p{
-
             padding-left: 10px;
             border: white solid 1px;
+            cursor: pointer;
         }
     }
 

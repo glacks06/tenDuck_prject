@@ -20,7 +20,7 @@ function About(){
                 </p>
                 <p>
                     <h1>Version</h1>
-                    v0.0.4
+                    v0.0.5
                 </p>
             </div>
         </div>
