@@ -118,12 +118,6 @@ const anims_200m = [
 
 const anims_500m = [
     {
-        name: "Re: 제로부터 시작하는 이세계 생활", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/rezero.png`,
-        plot: "편의점에서 돌아오던 중 갑자기 이세계로 소환된 주인공 나츠키 스바루가 사망 시 시간을 되돌리는 '사망귀환' 능력으로 소중한 사람들을 지키기 위해 절망에 맞서는 이야기.",
-        barrier: "주인공이 계속해서 죽고 고통받는 등 피폐하고 잔혹한 전개가 많아 시청하기 힘들 수 있다."
-    },
-    {
         name: "시원찮은 그녀를 위한 육성방법", 
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/saekano.png`,
         plot: "오타쿠 고교생 아키 토모야가 존재감 없는 반 친구 카토 메구미를 최고의 미소녀 게임 히로인으로 만들기 위해 동아리 멤버들과 고군분투하는 청춘 코미디.",
@@ -158,12 +152,6 @@ const anims_500m = [
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/kaguyasama.png`,
         plot: "엘리트들이 모인 슈치인 학원 학생회에서, 서로 좋아하지만 자존심 때문에 먼저 고백하지 않으려는 회장 시로가네 미유키와 부회장 시노미야 카구야의 밀당 두뇌 싸움.",
         barrier: "등장인물들의 심리 묘사와 대화가 중심이라, 행동이나 사건 중심의 스토리를 선호하면 지루할 수 있다."
-    },
-    {
-        name: "아마가미 씨네 인연 맺기", 
-        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/amagami.png`,
-        plot: "의대생을 목표로 하는 고등학생 우류 카미유가 교토의 신사를 이어받게 되면서, 그곳의 무녀인 세 자매와 함께 살며 벌어지는 로맨틱 코미디.",
-        barrier: "전형적인 하렘 러브 코미디의 왕도적인 전개를 따라가므로, 신선함이 부족하게 느껴질 수 있다."
     },
     {
         name: "내 마음의 위험한 녀석", 
@@ -247,10 +235,22 @@ const anims_500m = [
 
 const anims_1000m = [
     {
+        name: "아마가미 씨네 인연 맺기", 
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/amagami.png`,
+        plot: "의대생을 목표로 하는 고등학생 우류 카미유가 교토의 신사를 이어받게 되면서, 그곳의 무녀인 세 자매와 함께 살며 벌어지는 로맨틱 코미디.",
+        barrier: "전형적인 하렘 러브 코미디의 왕도적인 전개를 따라가므로, 신선함이 부족하게 느껴질 수 있다."
+    },
+    {
+        name: "Re: 제로부터 시작하는 이세계 생활", 
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/500m/rezero.png`,
+        plot: "편의점에서 돌아오던 중 갑자기 이세계로 소환된 주인공 나츠키 스바루가 사망 시 시간을 되돌리는 '사망귀환' 능력으로 소중한 사람들을 지키기 위해 절망에 맞서는 이야기.",
+        barrier: "주인공이 계속해서 죽고 고통받는 등 피폐하고 잔혹한 전개가 많아 시청하기 힘들 수 있다."
+    },
+    {
         name: "단다단",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/1000m/dandadan.png`,
         plot: "유령의 존재를 믿는 소녀 아야세 모모와 UFO의 존재를 믿는 소년 타카쿠라 켄이 서로의 신념을 증명하기 위해 기괴한 사건들에 맞서는 오컬트 액션 만화.",
-        barrier: "정신없이 빠른 전개와 혼합된 장르, 선정적인 장면 때문에 호불호가 크게 갈릴 수 있다."
+        barrier: "정신없이 빠른 전개와 혼합된 장르, 선정적인 장면과 대사 때문에 호불호가 크게 갈릴 수 있다."
     },
     {
         name: "미래일기",
