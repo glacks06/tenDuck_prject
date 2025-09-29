@@ -14,7 +14,14 @@
         height: cons.$anims-article-img-h;
         margin: cons.$anims-article-img-vertical-margin auto;
     }
-    &:hover{
-        opacity: cons.$anims-article-hover-opacity;
+    // @media (hover: none) and (pointer: coarse){ // 모바일 hover
+    //     &:hover{
+    //         opacity: cons.$anims-article-hover-opacity;
+    //     }
+    // }
+    @media (hover: hover) and (pointer: fine) { // 마우스 hover
+        &:hover{
+            opacity: cons.$anims-article-hover-opacity;
+        }
     }
 }
