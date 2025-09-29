@@ -10,7 +10,7 @@
         margin: cons.$detail-poster-vertical-margin auto;
         width: cons.$detail-poster-w;
     }
-    @media (min-width: cons.$detail-poster-max-w){
+    @media (min-width: cons.$detail-poster-image-fix-threshold){
         .poster{width: cons.$detail-poster-max-w;}
     }
 
@@ -37,5 +37,4 @@
                     cons.$detail-barrier-border-type 
                     cons.$detail-barrier-border-size;
     }
-
 }
