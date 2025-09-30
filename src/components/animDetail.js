@@ -15,6 +15,11 @@ function AnimDetail(props){
                 <h1>진입장벽</h1>
                 <span>{props.animBarrier}</span>
             </p>
+            <p className={styles.pv}>
+                <h1>PV</h1>
+                <span>{props.animPv}</span>
+            </p>
+
 
         </div>
     );
