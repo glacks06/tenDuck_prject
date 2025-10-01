@@ -13,7 +13,7 @@ const anim_routers = Array.from({ length: 5 });
 for(let i = 0; i < anims.length; i += 1){
   anim_routers[i] = anims[i].map((elmt) => {
     return (
-      <Route path={`/detail/${elmt.name}`} element={<AnimDetail animName={elmt.name} imgPath={elmt.path} animPlot={elmt.plot} animBarrier={elmt.barrier}/>} />
+      <Route path={`/detail/${elmt.name}`} element={<AnimDetail animName={elmt.name} imgPath={elmt.path} animPlot={elmt.plot} animBarrier={elmt.barrier} animPv={elmt.pv}/>} />
     );
   });
 }

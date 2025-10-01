@@ -3,44 +3,50 @@ const anims_100m = [
         name: "원피스",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/onepiece.png`,
         plot: '세계 제일 대비보 원피스를 찾고자 여행에 나선 해적 몽키 D. 루피와 그가 이끄는 해적단 밀짚모자 일당이 동료들을 영입하며, 바다를 항해하고 여러 섬들을 모험하는 여정을 그리고 있다.',
-        barrier: '애니화된 분량이 매우 많아 전부 다 보기 힘들다.'
+        barrier: '애니화된 분량이 매우 많아 전부 다 보기 힘들다.',
+        pv: 'https://www.youtube.com/embed/fX9NK-_YqlI?si=DJjhGVH9pxdWIfta'
     },
     {
         name: "나루토",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/naruto.png`,
         plot: '나뭇잎 마을의 고아 소년인 우즈마키 나루토가 닌자의 세계에서 호카게(마을의 수장)가 되기 위해 노력하며 성장하는 이야기',
-        barrier: '후속작을 제외하면 이미 완결이 났으나 애니화된 분량이 많은 편'
+        barrier: '후속작을 제외하면 이미 완결이 났으나 애니화된 분량이 많은 편',
+        pv: 'https://www.youtube.com/embed/Sxd-fZ22H_c'
     },
     {
         name: "블리치",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/bleach.png`,
         plot: '유령을 볼 수 있는 고등학생의 소년 쿠로사키 이치고. 어느 날 자신을 사신이라고 칭한 여자, 쿠치키 루키아를 만나 사신의 힘을 양도 받게 되고 대신 사신의 일을 하게 되는데',
-        barrier: '원작 완결 후 오랜 공백기를 거쳐 최종장이 애니화되었고, 중간에 원작과 무관한 애니 오리지널 스토리(필러)가 많은 편이다.'
+        barrier: '원작 완결 후 오랜 공백기를 거쳐 최종장이 애니화되었고, 중간에 원작과 무관한 애니 오리지널 스토리(필러)가 많은 편이다.',
+        pv: 'https://www.youtube.com/embed/68-81j80BvA'
     },
     {
         name: "드래곤볼",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/dragonball.png`,
         plot: '신비한 존재인 드래곤볼을 모아 소원을 이루는 모험을 떠나는 손오공이라는 소년의 성장 이야기',
-        barrier: '오리지널, Z, GT, 슈퍼 등 시리즈가 많아 어디부터 봐야 할지 막막할 수 있으며, 초반부의 개그 분위기와 Z의 배틀물 분위기가 다르다.'
+        barrier: '오리지널, Z, GT, 슈퍼 등 시리즈가 많아 어디부터 봐야 할지 막막할 수 있으며, 초반부의 개그 분위기와 Z의 배틀물 분위기가 다르다.',
+        pv: 'https://www.youtube.com/embed/i_454s5s0s8'
     },
     {
         name: "짱구",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/shinchan.png`,
         plot: '말썽꾸러기 5살짜리 짱구(노하라 신노스케)와 그의 가족, 그리고 이웃들이 겪는 일상을 코믹하게 그린 일본 만화 및 애니메이션',
-        barrier: '에피소드 형식이라 스토리가 이어지지 않아 가볍게 볼 수 있지만, 1000화가 넘는 방대한 분량과 초반의 자극적인 개그가 취향에 맞지 않을 수 있다.'
-
+        barrier: '에피소드 형식이라 스토리가 이어지지 않아 가볍게 볼 수 있지만, 1000화가 넘는 방대한 분량과 초반의 자극적인 개그가 취향에 맞지 않을 수 있다.',
+        pv: 'https://www.youtube.com/embed/hwnc3_3oO-g'
     },
     {
         name: "코난",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/detectiveconan.png`,
         plot: '고등학생 탐정 쿠도 신이치가 검은 조직의 약물로 인해 초등학생의 몸이 되어 에도와 코난이라는 이름으로 활동하며 사건을 해결하고, 조직의 비밀을 파헤치는 이야기',
-        barrier: '1000화가 넘는 압도적인 분량에 비해 메인 스토리 진행이 매우 느리고, 대부분이 단발성 사건 해결 에피소드이다.'
+        barrier: '1000화가 넘는 압도적인 분량에 비해 메인 스토리 진행이 매우 느리고, 대부분이 단발성 사건 해결 에피소드이다.',
+        pv: 'https://www.youtube.com/embed/2yV3zB_g-4w'
     },
     {
         name: "포켓몬스터",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/pokemon.png`,
         plot: "'포켓몬 마스터'가 되기를 꿈꾸는 소년 '한지우'가 파트너 포켓몬 '피카츄'와 함께 여러 지방을 여행하며 새로운 포켓몬들을 만나고, 동료들과 친구가 되어 포켓몬 배틀을 통해 성장해나가는 이야기",
-        barrier: '시리즈가 계속 리부트되는 형식이라 어디서든 시작할 수 있지만, 전체 시리즈를 다 보려면 분량이 매우 방대하고 패턴이 반복적인 편이다.'
+        barrier: '시리즈가 계속 리부트되는 형식이라 어디서든 시작할 수 있지만, 전체 시리즈를 다 보려면 분량이 매우 방대하고 패턴이 반복적인 편이다.',
+        pv: 'https://www.youtube.com/embed/pkWn20c_yIA'
     }
 ];
 

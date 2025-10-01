@@ -17,7 +17,11 @@ function AnimDetail(props){
             </p>
             <p className={styles.pv}>
                 <h1>PV</h1>
-                <span>{props.animPv}</span>
+                <div className={styles.video_container}>
+                    <iframe src={props.animPv} title={props.animName} allowFullScreen>
+
+                    </iframe>
+                </div>
             </p>
 
 
