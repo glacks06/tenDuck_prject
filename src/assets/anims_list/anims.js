@@ -11,14 +11,14 @@ const anims_100m = [
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/naruto.png`,
         plot: '나뭇잎 마을의 고아 소년인 우즈마키 나루토가 닌자의 세계에서 호카게(마을의 수장)가 되기 위해 노력하며 성장하는 이야기',
         barrier: '후속작을 제외하면 이미 완결이 났으나 애니화된 분량이 많은 편',
-        pv: 'https://www.youtube.com/embed/Sxd-fZ22H_c'
+        pv: 'https://www.youtube.com/embed/yKELA1qBAKA?si=OMJKm-gjRgC5HKiO'
     },
     {
         name: "블리치",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/bleach.png`,
         plot: '유령을 볼 수 있는 고등학생의 소년 쿠로사키 이치고. 어느 날 자신을 사신이라고 칭한 여자, 쿠치키 루키아를 만나 사신의 힘을 양도 받게 되고 대신 사신의 일을 하게 되는데',
         barrier: '원작 완결 후 오랜 공백기를 거쳐 최종장이 애니화되었고, 중간에 원작과 무관한 애니 오리지널 스토리(필러)가 많은 편이다.',
-        pv: 'https://www.youtube.com/embed/68-81j80BvA'
+        pv: 'https://www.youtube.com/embed/MGcYaIyjysU?si=hXO8KcOPd52ObeYK'
     },
     {
         name: "드래곤볼",
@@ -32,21 +32,21 @@ const anims_100m = [
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/shinchan.png`,
         plot: '말썽꾸러기 5살짜리 짱구(노하라 신노스케)와 그의 가족, 그리고 이웃들이 겪는 일상을 코믹하게 그린 일본 만화 및 애니메이션',
         barrier: '에피소드 형식이라 스토리가 이어지지 않아 가볍게 볼 수 있지만, 1000화가 넘는 방대한 분량과 초반의 자극적인 개그가 취향에 맞지 않을 수 있다.',
-        pv: 'https://www.youtube.com/embed/hwnc3_3oO-g'
+        pv: 'https://www.youtube.com/embed/AAb0cMv-1gI?si=kQ_YCZyetK5ASj10'
     },
     {
         name: "코난",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/detectiveconan.png`,
         plot: '고등학생 탐정 쿠도 신이치가 검은 조직의 약물로 인해 초등학생의 몸이 되어 에도와 코난이라는 이름으로 활동하며 사건을 해결하고, 조직의 비밀을 파헤치는 이야기',
         barrier: '1000화가 넘는 압도적인 분량에 비해 메인 스토리 진행이 매우 느리고, 대부분이 단발성 사건 해결 에피소드이다.',
-        pv: 'https://www.youtube.com/embed/2yV3zB_g-4w'
+        pv: 'https://www.youtube.com/embed/Fwm8v1U2NIg?si=UV0SRDWSni6bMXe3'
     },
     {
         name: "포켓몬스터",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/pokemon.png`,
         plot: "'포켓몬 마스터'가 되기를 꿈꾸는 소년 '한지우'가 파트너 포켓몬 '피카츄'와 함께 여러 지방을 여행하며 새로운 포켓몬들을 만나고, 동료들과 친구가 되어 포켓몬 배틀을 통해 성장해나가는 이야기",
         barrier: '시리즈가 계속 리부트되는 형식이라 어디서든 시작할 수 있지만, 전체 시리즈를 다 보려면 분량이 매우 방대하고 패턴이 반복적인 편이다.',
-        pv: 'https://www.youtube.com/embed/pkWn20c_yIA'
+        pv: 'https://www.youtube.com/embed/sCRpPR7fszE?si=bFaXeT2ZwbKwgBjZ'
     }
 ];
 
