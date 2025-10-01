@@ -55,69 +55,79 @@ const anims_150m = [
         name: "귀멸의 칼날",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/demonslayer.png`,
         plot: "혈귀로 변해버린 여동생을 인간으로 되돌리기 위해, 주인공 카마도 탄지로가 귀살대에 입단하여 혈귀들과 싸워나가는 이야기.",
-        barrier: "일부 잔인한 묘사가 있어 폭력적인 장면에 거부감이 있다면 시청하기 어려울 수 있다."
+        barrier: "일부 잔인한 묘사가 있어 폭력적인 장면에 거부감이 있다면 시청하기 어려울 수 있다.",
+        pv: 'https://www.youtube.com/embed/zN8K_uE1LYg?si=YuzckLdPfEydhFwQ'
     },
     {
         name: "진격의 거인",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/attackontitan.png`,
         plot: "벽 바깥 세상에 대한 자유를 갈망하는 소년 엘런 예거가 거인들의 위협에 맞서 싸우며 세계의 진실에 다가가는 다크 판타지.",
-        barrier: "꿈도 희망도 없는 어두운 세계관과 충격적이고 잔혹한 전개가 많아 정신적으로 피로감을 느낄 수 있다."
+        barrier: "꿈도 희망도 없는 어두운 세계관과 충격적이고 잔혹한 전개가 많아 정신적으로 피로감을 느낄 수 있다.",
+        pv: 'https://www.youtube.com/embed/j1bRHeoK3uU?si=qhW9WzI1YZJqQgTh'
     },
     {
         name: "주술회전",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/jujutsukaisen.png`,
         plot: "경이로운 신체 능력을 가진 고등학생 이타도리 유지가 저주를 풀기 위해 주술고전에 들어가 주령들과 싸우는 이야기.",
-        barrier: "주력, 술식, 영역 전개 등 고유의 설정과 개념이 다소 복잡하게 느껴질 수 있다."
+        barrier: "주력, 술식, 영역 전개 등 고유의 설정과 개념이 다소 복잡하게 느껴질 수 있다.",
+        pv: 'https://www.youtube.com/embed/MePL_vS-G9Q?si=p8vf-TW-uIaLyCxw'
     },
     {
         name: "하이큐!!",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/haikyuu.png`,
         plot: "작은 키의 주인공 히나타 쇼요가 배구에 대한 열정으로 카라스노 고교에 입학하여 동료들과 함께 전국 대회를 목표로 성장하는 스포츠물.",
-        barrier: "스포츠 장르에 흥미가 없거나, 여러 시즌에 걸친 긴 호흡의 경기 진행이 지루하게 느껴질 수 있다."
+        barrier: "스포츠 장르에 흥미가 없거나, 여러 시즌에 걸친 긴 호흡의 경기 진행이 지루하게 느껴질 수 있다.",
+        pv: 'https://www.youtube.com/embed/8sJs0Ud0Y1o'
     },
     {
         name: "원펀맨",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/onepunchman.png`,
         plot: "어떤 적이든 단 한 방의 펀치로 쓰러뜨리는 너무나도 강력한 히어로 사이타마의 허무하고 코믹한 일상을 그린 히어로물.",
-        barrier: "주인공이 압도적으로 강해 긴장감이 부족하고, 시즌 간의 출시 간격이 매우 길다."
+        barrier: "주인공이 압도적으로 강해 긴장감이 부족하고, 시즌 간의 출시 간격이 매우 길다.",
+        pv: 'https://www.youtube.com/embed/TQsVT7RFUt0'
     },
     {
         name: "나 혼자만 레벨업",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/sololeveling.png`,
         plot: "인류 최약체 헌터로 불리던 주인공 성진우가 특정 계기로 혼자만 레벨업 할 수 있는 능력을 얻게 되어 최강의 헌터로 거듭나는 이야기.",
-        barrier: "주인공이 빠르게 강해지는 먼치킨 장르에 흥미가 없다면 다소 단조롭게 느껴질 수 있다."
+        barrier: "주인공이 빠르게 강해지는 먼치킨 장르에 흥미가 없다면 다소 단조롭게 느껴질 수 있다.",
+        pv: 'https://www.youtube.com/embed/ogCYutJYVvI'
     },
     {
         name: "헌터X헌터",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/hunterxhunter.png`,
         plot: "아버지와 같은 최고의 헌터가 되기 위해 고향을 떠난 주인공 곤 프릭스가 동료들을 만나고 어려운 시험에 도전하며 성장하는 모험물.",
-        barrier: "원작 만화의 연재 중단이 잦아 이야기가 언제 완결될지 알 수 없다는 점이 가장 큰 장벽이다."
+        barrier: "원작 만화의 연재 중단이 잦아 이야기가 언제 완결될지 알 수 없다는 점이 가장 큰 장벽이다.",
+        pv: 'https://www.youtube.com/embed/d6kBeJjTGnY'
     },
     {
         name: "SPYxFAMILY",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/spyxfamily.png`,
         plot: "서로의 정체를 숨긴 채 위장 가족을 만든 스파이 아빠, 암살자 엄마, 초능력자 딸이 세계 평화를 위해 고군분투하는 코믹 액션물.",
-        barrier: "주된 내용이 액션보다는 일상 코미디와 가족 드라마에 가까워, 화끈한 첩보 액션을 기대했다면 심심하게 느껴질 수 있다."
+        barrier: "주된 내용이 액션보다는 일상 코미디와 가족 드라마에 가까워, 화끈한 첩보 액션을 기대했다면 심심하게 느껴질 수 있다.",
+        pv: 'https://www.youtube.com/embed/s0Tl9eDvtTA'
     },
     {
         name: "장송의 프리렌",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/frieren.png`,
         plot: "마왕을 물리친 용사 일행의 엘프 마법사 프리렌이 동료의 죽음 후, 인간을 알아가기 위해 새로운 여행을 떠나는 판타지 드라마.",
-        barrier: "큰 사건 없이 잔잔하고 서정적으로 흘러가는 분위기 때문에 전개가 느리고 지루하다고 느낄 수 있다."
+        barrier: "큰 사건 없이 잔잔하고 서정적으로 흘러가는 분위기 때문에 전개가 느리고 지루하다고 느낄 수 있다.",
+        pv: 'https://www.youtube.com/embed/G5zaNlOsDYE'
     },
     {
         name: "마슐",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/mashle.png`,
         plot: "마법이 당연한 세상에서 마법을 쓰지 못하는 주인공 마슈 번데드가 오직 단련된 근육만으로 마법학교의 정점에 서려는 판타지 코미디.",
-        barrier: "단순하고 반복적인 개그 패턴에 의존하는 경향이 있어, 취향에 맞지 않으면 쉽게 질릴 수 있다."
+        barrier: "단순하고 반복적인 개그 패턴에 의존하는 경향이 있어, 취향에 맞지 않으면 쉽게 질릴 수 있다.",
+        pv: 'https://www.youtube.com/embed/T8h6jkZhjUQ'
     },
     {
         name: "체인소맨",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/chainsawman.png`,
         plot: "빚더미에 시달리는 소년 덴지가 체인톱 악마 포치타와 계약하여 악마의 심장을 가진 '체인소맨'으로 거듭나, 공안 데블 헌터가 되어 수많은 악마와 맞서 싸우는 다크 히어로 액션물. 평범한 삶을 꿈꾸는 덴지의 처절한 사투를 그리고 있다.",
-        barrier: "피와 내장이 난무하는 매우 폭력적이고 잔인한 묘사가 많아 호불호가 극명하게 갈린다. 선정적인 장면도 다수 있다. 그럼에도 이 작품을 150m에 위치시킨 이유는 귀주톱(귀칼, 주술회전, 체인소맨)이라고 불릴 만큼 인지도가 비교적 높기 때문이다."
-    },
-
+        barrier: "피와 내장이 난무하는 매우 폭력적이고 잔인한 묘사가 많아 호불호가 극명하게 갈린다. 선정적인 장면도 다수 있다. 그럼에도 이 작품을 150m에 위치시킨 이유는 귀주톱(귀칼, 주술회전, 체인소맨)이라고 불릴 만큼 인지도가 비교적 높기 때문이다.",
+        pv: 'https://www.youtube.com/embed/v5LPiVx6BH8'
+    }
 ];
 
 const anims_200m = [
