@@ -281,79 +281,92 @@ const anims_1000m = [
         name: "아마가미 씨네 인연 맺기",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/amagami.png`,
         plot: "의대생을 목표로 하는 고등학생 우류 카미유가 교토의 신사를 이어받게 되면서, 그곳의 무녀인 세 자매와 함께 살며 벌어지는 로맨틱 코미디.",
-        barrier: "전형적인 하렘 러브 코미디의 왕도적인 전개를 따라가므로, 신선함이 부족하게 느껴질 수 있다."
+        barrier: "전형적인 하렘 러브 코미디의 왕도적인 전개를 따라가므로, 신선함이 부족하게 느껴질 수 있다.",
+        pv: 'https://www.youtube.com/embed/QLR1yLA1kow?si=9cE4P0RuCJrd0dIx'
     },
     {
         name: "Re: 제로부터 시작하는 이세계 생활",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/rezero.png`,
         plot: "편의점에서 돌아오던 중 갑자기 이세계로 소환된 주인공 나츠키 스바루가 사망 시 시간을 되돌리는 '사망귀환' 능력으로 소중한 사람들을 지키기 위해 절망에 맞서는 이야기.",
-        barrier: "주인공이 계속해서 죽고 고통받는 등 피폐하고 잔혹한 전개가 많아 시청하기 힘들 수 있다."
+        barrier: "주인공이 계속해서 죽고 고통받는 등 피폐하고 잔혹한 전개가 많아 시청하기 힘들 수 있다.",
+        pv: 'https://www.youtube.com/embed/rZrKEVK6mPY?si=-PFbUh0T-VBFXBNb'
     },
     {
         name: "단다단",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/dandadan.png`,
         plot: "유령의 존재를 믿는 소녀 아야세 모모와 UFO의 존재를 믿는 소년 타카쿠라 켄이 서로의 신념을 증명하기 위해 기괴한 사건들에 맞서는 오컬트 액션 만화.",
-        barrier: "정신없이 빠른 전개와 혼합된 장르, 선정적인 장면과 대사 때문에 호불호가 크게 갈릴 수 있다."
+        barrier: "정신없이 빠른 전개와 혼합된 장르, 선정적인 장면과 대사 때문에 호불호가 크게 갈릴 수 있다.",
+        pv: 'https://www.youtube.com/embed/G3961wmYncw?si=ndHlSB6c-hqqc0pY'
     },
     {
         name: "미래일기",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/mirainikki.png`,
         plot: "우연히 미래를 예측하는 '미래일기'를 손에 넣은 중학생 아마노 유키테루가 다른 일기 소유자들과 최후의 1인이 되기 위해 벌이는 서바이벌 게임.",
-        barrier: "매우 폭력적이고 잔인하며, 여주인공의 얀데레 성향이 극단적이라 거부감을 느낄 수 있다."
+        barrier: "매우 폭력적이고 잔인하며, 여주인공의 얀데레 성향이 극단적이라 거부감을 느낄 수 있다.",
+        pv: 'https://www.youtube.com/embed/23uwpxglC8o?si=BQfuAz0Hep3VhZfG'
     },
     {
         name: "어둠의 실력자가 되고 싶어서!",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/shadow.png`,
         plot: "어릴 때부터 '어둠의 실력자'를 동경하던 한 소년이 이세계로 전생하여, 망상으로 만들어낸 조직 '섀도우 가든'을 이끌며 진짜 악의 조직과 맞서 싸우는 이야기.",
-        barrier: "주인공의 중2병 설정과 착각물 개그 코드가 취향에 맞지 않으면 오글거리고 유치하게 느껴질 수 있다. 또한 주인공이 능력을 쓸 때 오글거리는 영어 굴리기 asmr을 들을 수 있다."
+        barrier: "주인공의 중2병 설정과 착각물 개그 코드가 취향에 맞지 않으면 오글거리고 유치하게 느껴질 수 있다. 또한 주인공이 능력을 쓸 때 오글거리는 영어 굴리기 asmr을 들을 수 있다.",
+        pv: 'https://www.youtube.com/embed/d7NZr5txtNA?si=XSizRA9qhFlbXZEp'
     },
     {
         name: "중2병이라도 사랑이 하고 싶어!",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/chunibyo.png`,
         plot: "중2병을 졸업하고 평범한 고등학생이 되려는 토가시 유타가 아직 중2병에서 헤어나오지 못한 동급생 타카나시 릿카를 만나면서 벌어지는 학원 로맨틱 코미디.",
-        barrier: "중2병이라는 특정 문화에 대한 이해나 공감이 없으면 등장인물들의 행동이 오글거리고 보기 힘들 수 있다."
+        barrier: "중2병이라는 특정 문화에 대한 이해나 공감이 없으면 등장인물들의 행동이 오글거리고 보기 힘들 수 있다.",
+        pv: 'https://www.youtube.com/embed/Z4RZF9HsFWs?si=xV9k074rBme4abfk'
     },
     {
         name: "언데드 언럭",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/undeadunluck.png`,
         plot: "자신과 닿는 사람에게 불운을 가져다주는 소녀 이즈모 후코와 절대 죽지 않는 불사의 능력을 가진 남자 앤디가 만나 세계의 룰에 맞서는 이야기.",
-        barrier: "세계관과 설정이 복잡하고 초반부의 개그나 서비스신이 다소 과하게 느껴질 수 있다."
+        barrier: "세계관과 설정이 복잡하고 초반부의 개그나 서비스신이 다소 과하게 느껴질 수 있다.",
+        pv: 'https://www.youtube.com/embed/-U1sw--nMiU?si=Ehg0YALO9BAQcNI-'
     },
     {
         name: "Lv2부터 치트였던 전직 용사 후보의 유유자적 이세계 라이프",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/lv2cheat.png`,
         plot: "용사 후보로 이세계에 소환되었지만 레벨 1 능력치가 낮다는 이유로 추방된 주인공이, 레벨 2가 되자마자 먼치킨 능력을 각성하여 유유자적한 이세계 생활을 즐기는 이야기.",
-        barrier: "먼치킨, 이세계, 하렘 등 전형적인 클리셰를 많이 사용해 독창성이 부족하게 느껴질 수 있다."
+        barrier: "먼치킨, 이세계, 하렘 등 전형적인 클리셰를 많이 사용해 독창성이 부족하게 느껴질 수 있다.",
+        pv: 'https://www.youtube.com/embed/GnThLp94VVk?si=82jvTIB5OMIzMl5q'
     },
     {
         name: "모브부터 시작하는 탐색 영웅담",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/mobhero.png`,
         plot: "평범한 '모브(엑스트라)' 고등학생이었던 타카기 카이토가 어느 날 갑자기 강력한 힘을 손에 넣고, 매력적인 히로인들과 함께 던전을 탐험하며 영웅으로 성장하는 이야기.",
-        barrier: "전형적인 하렘 먼치킨 장르로, 기존의 유사 작품들과 차별점을 찾기 어려울 수 있다. 액션도 굉장히 대충 그려서 헛웃음이 나온다."
+        barrier: "전형적인 하렘 먼치킨 장르로, 기존의 유사 작품들과 차별점을 찾기 어려울 수 있다. 액션도 굉장히 대충 그려서 헛웃음이 나온다.",
+        pv: 'https://www.youtube.com/embed/4-B3heXYK5w?si=jeOJo7x-jKwobiWs'
     },
     {
         name: "내 여자친구와 소꿉친구가 완전 수라장",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/shuraba.png`,
         plot: "연애에 관심 없는 평범한 고등학생 키도 에이타가 은발의 미소녀 나츠카와 마스즈의 가짜 남자친구 행세를 하게 되면서 소꿉친구 하루사키 치와까지 얽혀 복잡한 연애 수라장에 빠지는 이야기.",
-        barrier: "2010년대 초반 하렘물의 특징이 강해, 요즘 시청자에게는 다소 유치하거나 진부하게 보일 수 있다."
+        barrier: "2010년대 초반 하렘물의 특징이 강해, 요즘 시청자에게는 다소 유치하거나 진부하게 보일 수 있다.",
+        pv: 'https://www.youtube.com/embed/98p7i5pNZp0?si=IbTj6gmOvtB3BaYy'
     },
     {
         name: "청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/bunnygirlsenpai.png`,
         plot: "주변 사람들에게 모습이 보이지 않게 되는 '사춘기 증후군'을 겪는 선배 사쿠라지마 마이를 도와주면서, 주인공 아즈사가와 사쿠타가 다른 소녀들의 불가사의한 사건들을 해결해 나가는 이야기.",
-        barrier: "일단 제목부터가 진입장벽이다. 양자역학 등 과학 이론을 섞은 설정이 다소 난해하고, 대화의 비중이 높아 집중력이 필요하다."
+        barrier: "일단 제목부터가 진입장벽이다. 양자역학 등 과학 이론을 섞은 설정이 다소 난해하고, 대화의 비중이 높아 집중력이 필요하다.",
+        pv: 'https://www.youtube.com/embed/UDGnNBv4pZg?si=V_bWjFjt37ioBcLR'
     },
     {
         name: "가끔씩 툭하고 러시아어로 부끄러워하는 옆자리의 아랴 양",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/aryasan.png`,
         plot: "은발의 러시아 혼혈 미소녀 아랴가 옆자리 남학생 쿠제 마사치카에게 러시아어로 본심을 고백하지만, 사실 마사치카가 러시아어를 알아들으면서 벌어지는 달콤한 청춘 러브 코미디.",
-        barrier: "제목부터 진입장벽이다. 하나의 핵심 설정(러시아어 고백)에 크게 의존하는 단순한 구조의 로맨틱 코미디이다. 쉽지 않은 대사도 조금 나오는 편..."
+        barrier: "제목부터 진입장벽이다. 하나의 핵심 설정(러시아어 고백)에 크게 의존하는 단순한 구조의 로맨틱 코미디이다. 쉽지 않은 대사도 조금 나오는 편...",
+        pv: 'https://www.youtube.com/embed/So1JJuMREAQ?si=SYESjK7V3i57CWqd'
     },
     {
         name: "이 멋진 세계에 축복을!",
         path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/konosuba.png`,
         plot: "게임을 사랑하는 은둔형 외톨이 소년 카즈마가 갑작스러운 사고로 사망한 후, 여신 아쿠아와 함께 이세계로 전생하여 벌이는 대모험을 그린 코미디 판타지. 하지만 그의 파티원은 잉여신, 폭렬 마법만 쓰는 중2병 마법사, 공격을 맞고 희열을 느끼는 변태 여기사 등 어딘가 나사 빠진 동료들뿐이다.",
-        barrier: "이세계 전생물의 클리셰를 비꼬는 패러디 개그가 많아, 해당 장르에 익숙하지 않으면 재미가 반감될 수 있다. 또한, 주인공 파티가 정상인 없이 괴짜들(중2병, 마조히스트 등)으로만 구성되어 있어 호불호가 갈릴 수 있다. 선정적인 장면도 다수 있다."
+        barrier: "이세계 전생물의 클리셰를 비꼬는 패러디 개그가 많아, 해당 장르에 익숙하지 않으면 재미가 반감될 수 있다. 또한, 주인공 파티가 정상인 없이 괴짜들(중2병, 마조히스트 등)으로만 구성되어 있어 호불호가 갈릴 수 있다. 선정적인 장면도 다수 있다.",
+        pv: 'https://www.youtube.com/embed/_1hf-1QK3KQ?si=ckbDFauBYcGKe3tM'
     }
 ];
 
