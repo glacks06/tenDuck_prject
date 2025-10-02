@@ -5,6 +5,7 @@ function Anims(props){
     let items = props.anims_for_display.map((element) => {
         return (
             <Link to={`/detail/${element.name}`} className={styles.article_link}>
+                {/* <div>추천</div> */}
                 <img src={element.path} alt={element.name}></img>
                 {element.name}
             </Link>

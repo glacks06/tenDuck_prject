@@ -7,6 +7,14 @@
     color: cons.$default-font-color;
     text-align: center;
     transition-duration: 0.2s;
+    position: relative;
+
+    // div{
+    //     position: absolute;
+    //     background-color: gold;
+    //     color: red;
+    //     left: 9px;
+    // }
 
     img{
         display: block;
@@ -14,11 +22,7 @@
         height: cons.$anims-article-img-h;
         margin: cons.$anims-article-img-vertical-margin auto;
     }
-    // @media (hover: none) and (pointer: coarse){ // 모바일 hover
-    //     &:hover{
-    //         opacity: cons.$anims-article-hover-opacity;
-    //     }
-    // }
+
     @media (hover: hover) and (pointer: fine) { // 마우스 hover
         &:hover{
             opacity: cons.$anims-article-hover-opacity;
