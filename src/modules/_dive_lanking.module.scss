@@ -5,25 +5,25 @@
     color: cons.$dive-font-color;
     overflow: hidden;
     padding-top: cons.$dive-base-padding-top;
-    padding-bottom: 200px;
+    padding-bottom: cons.$dive-base-padding-bottom;
 
     .remoteBox{
         position: fixed;
-        width: 100px;
+        width: cons.$dive-remoteBox-w;
         // height: 180px;
         right: -100px;
-        bottom: 60px;
+        bottom: cons.$dive-remoteBox-bottom;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        gap: 8px;
-        transition-duration: 0.5s;
+        gap: cons.$dive-remoteBox-gap;
+        transition-duration: cons.$dive-remoteBox-transition-duration;
 
         z-index: 100;
-        border: skyblue solid 1px;
+        border: cons.$dive-remoteBox-border;
         p{
-            padding-left: 10px;
-            border: white solid 1px;
+            padding-left: cons.$dive-remoteBox-p-padding-left;
+            border: cons.$dive-remoteBox-p-border;
             cursor: pointer;
         }
     }
@@ -31,10 +31,10 @@
     .remoteButton{
         display: block;
         position: fixed;
-        right: 5px;
-        bottom: 5px;
-        width: 50px;
-        height: 50px;
+        right: cons.$dive-remoteButton-right;
+        bottom: cons.$dive-remoteButton-bottom;
+        width: cons.$dive-remoteButton-w;
+        height: cons.$dive-remoteButton-h;
         z-index: 100;
     }
 

@@ -5,7 +5,9 @@
     background-color: cons.$header-bc-color;
     overflow: hidden;
     position: relative;
-    border-bottom: 1px solid white;
+    border-bottom: cons.$header-border;
+
+    
 
     .titleBox{
         display: flex;
@@ -29,14 +31,14 @@
     .navigation{
         position: absolute;
         display: flex;
-        right: 10%;
-        bottom: 10px;
+        right: cons.$header-nav-right;
+        bottom: cons.$header-nav-bottom;
         li{
-            width: 120px;
+            width: cons.$header-nav-li-w;
             color: cons.$default-font-color;
             text-align: center;
-            font-size: 20px;
-            margin: 0 10px;
+            font-size: cons.$header-nav-li-font-size;
+            margin: 0 cons.$header-nav-li-horizontal-margin;
             
             &:hover{
                 color: cons.$default-font-color-hover;

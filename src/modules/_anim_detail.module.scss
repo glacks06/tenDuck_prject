@@ -15,6 +15,7 @@
     }
 
     p{
+        border-top: cons.$detail-p-border;
         h1{
             margin-bottom: cons.$detail-p-margin-bottom;
             line-height: cons.$detail-h1-line-height;
@@ -25,28 +26,19 @@
         width: cons.$detail-plot-w;
         margin: cons.$detail-plot-vertical-margin auto;
         padding: cons.$detail-plot-padding;
-        border-top: cons.$detail-plot-border-color
-                    cons.$detail-plot-border-type 
-                    cons.$detail-plot-border-size;
     }
     .barrier{
         width: cons.$detail-barrier-w;
         margin: cons.$detail-barrier-vertical-margin auto;
         padding: cons.$detail-barrier-padding;
-        border-top: cons.$detail-barrier-border-color
-                    cons.$detail-barrier-border-type 
-                    cons.$detail-barrier-border-size;
     }
     .pv{
         width: cons.$detail-barrier-w;
         margin: cons.$detail-barrier-vertical-margin auto;
         padding: cons.$detail-barrier-padding;
-        border-top: cons.$detail-barrier-border-color
-                    cons.$detail-barrier-border-type 
-                    cons.$detail-barrier-border-size;
         .video_container{
             position: relative;
-            width: 100%;
+            width: cons.$detail-pv-video-width;
             padding-bottom: 56.25%; /* 16:9 비율 (9 / 16 * 100) */
             height: 0;
             iframe{

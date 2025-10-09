@@ -6,24 +6,23 @@ $font-color: dive-cons.$font-color;
 $h1-line-height: 40px;
 $content-line-height: 30px;
 
+// 표지 이미지
 $poster-vertical-margin: 50px;
 $poster-w: 50%;
 
 $poster-image-fix-threshold: 700px;
 $poster-max-w: 400px;
 
+// p 요소(plot, barrier, pv)
 $p-margin-bottom: 20px;
+$p-border: white solid 2px;
 
 $plot-w: 80%;
 $plot-vertical-margin: 100px;
 $plot-padding: 20px;
-$plot-border-color: white;
-$plot-border-type: solid;
-$plot-border-size: 2px;
 
 $barrier-w: $plot-w;
 $barrier-vertical-margin: $plot-vertical-margin;
 $barrier-padding: $plot-padding;
-$barrier-border-color: $plot-border-color;
-$barrier-border-type: $plot-border-type;
-$barrier-border-size: $plot-border-size;
+
+$pv-video-width: 100%;

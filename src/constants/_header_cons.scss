@@ -1,9 +1,10 @@
 @use './default_cons' as default-cons;
 
-// $bc-color: linear-gradient(to bottom, #f4ab21, #f3a10a, #1CB5E0);
 $bc-color: #f4ab21;
-
 $h: 120px;
+$border: white solid 1px;
+
+// logo
 $title-w: 200px;
 $title-h: 80px;
 
@@ -15,3 +16,10 @@ $title-text-box-h: $title-h;
 $title-text-color: white;
 $title-text-font-size: 40px;
 $title-text-line-height: $title-h;
+
+// navigation
+$nav-right: 10%;
+$nav-bottom: 10px;
+$nav-li-w: 120px;
+$nav-li-font-size: 20px;
+$nav-li-horizontal-margin: 10px;

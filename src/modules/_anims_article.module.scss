@@ -6,7 +6,7 @@
     height: cons.$anims-article-h;
     color: cons.$default-font-color;
     text-align: center;
-    transition-duration: 0.2s;
+    transition-duration: cons.$anims-article-transition-duration;
     position: relative;
 
     // div{

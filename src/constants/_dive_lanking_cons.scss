@@ -4,6 +4,7 @@ $background-gradient: linear-gradient(to bottom, #f4ab21,#1CB5E0, #020223, #0303
 
 $font-color: default-cons.$font-color;
 $base-padding-top: 50px;
+$base-padding-bottom: 200px;
 
 $section-horizontal-padding: 10px;
 $section-vertical-margin: 20px;
@@ -24,3 +25,22 @@ $depth-inform-transition-duration: 0.5s;
 $depth-inform-border-color: white;
 $depth-inform-border-type: solid;
 $depth-inform-border-size: 2px;
+
+// remoteButton(diveLanking 오른쪽 하단 오리)
+$remoteButton-right: 5px;
+$remoteButton-bottom: 5px;
+$remoteButton-w: 50px;
+$remoteButton-h: 50px;
+
+// remoteBox(오리를 눌렀을 때 나오는 상자)
+$remoteBox-w: 100px;
+$remoteBox-bottom: 60px;
+$remoteBox-gap: 8px;
+$remoteBox-transition-duration: 0.5s;
+
+$remoteBox-border: skyblue solid 1px;
+
+// remoteBox-p(remoteBox 안 요소들)
+$remoteBox-p-padding-left: 10px;
+$remoteBox-p-border: white solid 1px;
+
