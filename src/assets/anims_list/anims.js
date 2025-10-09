@@ -287,6 +287,13 @@ const anims_500m = [
         plot: "존재감이 너무 없어 주변인들에게 보이지 않는 수준인 남주인공 시라이시 준타와, 그런 그를 유일하게 찾아내 장난을 거는 클래스메이트 쿠보 나기사의 풋풋하고 달콤한 일상을 그린 청춘 스위트 코미디.",
         barrier: "큰 사건이나 갈등 없이 두 주인공의 관계에만 집중하며 잔잔하게 흘러간다. 자극적인 전개나 빠른 로맨스 진도를 기대하는 시청자에게는 매우 심심하고 지루하게 느껴질 수 있다.",
         pv: 'https://www.youtube.com/embed/YIxjlgkjmws?si=rY1hhTWllOZ6nxBz'
+    },
+    {
+        name: "사이버펑크: 엣지러너",
+        path: `${process.env.PUBLIC_URL}/imgs/anim_imgs/cyberpunkedgerunners.png`,
+        plot: "기술에 대한 집착과 신체 개조가 만연한 디스토피아 도시 '나이트 시티'에서 모든 것을 잃은 소년 데이비드 마르티네즈가 생존을 위해 용병 무법자인 '엣지러너'가 되어 자신을 파멸로 이끄는 길을 걷게 되는 이야기.",
+        barrier: "성인 등급(청소년 관람불가) 작품으로, 폭력, 유혈, 신체 훼손, 노출 등 매우 자극적이고 수위 높은 장면이 많아 시청에 각별한 주의가 필요하다. 또한, 작품 전반에 깔린 어둡고 허무주의적인 분위기가 진입장벽이 될 수 있다.",
+        pv: 'https://www.youtube.com/embed/TIDe3EWEAa8?si=wlVrnFjtINxUGfM-'
     }
 ];
 
