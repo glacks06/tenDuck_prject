@@ -16,26 +16,17 @@
 
     p{
         border-top: cons.$detail-p-border;
+        width: cons.$detail-p-w;
+        margin: cons.$detail-p-vertical-margin auto;
+        padding: cons.$detail-p-padding;
         h1{
             margin-bottom: cons.$detail-p-margin-bottom;
             line-height: cons.$detail-h1-line-height;
         }
         span{line-height: cons.$detail-content-line-height;}
     }
-    .plot{
-        width: cons.$detail-plot-w;
-        margin: cons.$detail-plot-vertical-margin auto;
-        padding: cons.$detail-plot-padding;
-    }
-    .barrier{
-        width: cons.$detail-barrier-w;
-        margin: cons.$detail-barrier-vertical-margin auto;
-        padding: cons.$detail-barrier-padding;
-    }
+
     .pv{
-        width: cons.$detail-barrier-w;
-        margin: cons.$detail-barrier-vertical-margin auto;
-        padding: cons.$detail-barrier-padding;
         .video_container{
             position: relative;
             width: cons.$detail-pv-video-width;
