@@ -12,6 +12,7 @@ function Header(){
             <ul className={styles.navigation}>
                 <li><Link to={'/'}>Dive Lanking</Link></li>
                 <li><Link to={'/about'}>About</Link></li>
+                <li><Link to={'/category'}>Category</Link></li>
             </ul>
         </header>
 

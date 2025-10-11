@@ -1,6 +1,6 @@
 import './css/App.css';
 
-import {Header, DiveLanking, About, AnimDetail} from './components'
+import {Header, DiveLanking, About, AnimDetail, AnimsCategory} from './components'
 import { Routes, Route } from 'react-router-dom';
 import anims from './assets/anims_list/anims';
 
@@ -30,6 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<DiveLanking />} />
         <Route path="/about" element={<About />} />
+        <Route path="/category/*" element={<AnimsCategory />} />
         {anim_routers}
 
       </Routes>

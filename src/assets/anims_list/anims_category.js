@@ -425,5 +425,4 @@ const anims_daily_longrun = [
     }
 ];
 
-const anims_category = [anims_action_adventure, anims_daily_longrun, anims_drama_sf, anims_isekai_fantasy, anims_romance_comedy];
-export default anims_category;
+export {anims_action_adventure, anims_daily_longrun, anims_drama_sf, anims_isekai_fantasy, anims_romance_comedy};
